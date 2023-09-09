@@ -3,4 +3,4 @@
 ## Versiones en Español
 
 Aquí puede encontrar los diferentes manuales y documentos de soporte técnico que soportan sus dispositivos Kontrolog.
-![Uploading DSC_0153.png…]()
+![DSC_0153](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/0d7dab1a-dcf2-47f5-93ba-58a9df6aba2e)

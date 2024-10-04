@@ -3,7 +3,7 @@
 # Kontrolog
 ## Kontrolog Settings Menu
 
-¡Welcome to Omicron IoT Solutions!
+Welcome to Omicron IoT Solutions!
 
 In this video, we will show you how to navigate through the different configurations menus of your Kontrolog devices and the different settings available.
 

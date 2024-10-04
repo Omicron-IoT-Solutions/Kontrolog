@@ -3,7 +3,7 @@
 # Kontrolog
 ## Kontrolog Settings Menu
 
-¡Welcome to Omicron IoT Solutions!
+Welcome to Omicron IoT Solutions!
 
 In this video, we will present you the Kontrolog, a cutting-edge Internet of Things programmable IoT controller, capable of many things.
 

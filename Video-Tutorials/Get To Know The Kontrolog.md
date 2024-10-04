@@ -1,7 +1,7 @@
 ![Logo-Omicron-Vector](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/6a6bdb70-bfff-41b6-8576-7ef9ffa912dd)
 
 # Kontrolog
-## Kontrolog Settings Menu
+## Get To Know The Kontrolog
 
 Welcome to Omicron IoT Solutions!
 

@@ -3,7 +3,7 @@
 # Kontrolog
 ## Kontrolog Mounting Guide
 
-¡Welcome to Omicron IoT Solutions!
+Welcome to Omicron IoT Solutions!
 
 In this video, we will show you how to mount your programmable IoT controller "Kontrolog".
 

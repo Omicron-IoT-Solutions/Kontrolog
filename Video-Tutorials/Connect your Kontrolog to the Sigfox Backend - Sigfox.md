@@ -3,7 +3,7 @@
 # Kontrolog
 ## Kontrolog Settings Menu
 
-¡Welcome to Omicron IoT Solutions!
+Welcome to Omicron IoT Solutions!
 
 In this video, we will show you how to connect your programmable IoT controller "Kontrolog" to the Sigfox Backend for Sigfox modules.
 

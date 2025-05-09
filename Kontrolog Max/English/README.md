@@ -7,9 +7,9 @@ This repository contains instructions, manuals, schematics, packages, and exampl
 ![DSC_0153](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/87452571-8b00-4312-8a06-4ba1d7e01cff)
 The Kontrolog Max device is a programmable controller for IoT (Internet of Things) that incorporates the powerful ESP32 processing technology, designed for remote and real-time, control and monitoring of different processes with high security and precision requirements. Adapted to your application, the device can be easily used after installation. It houses electronic components such as a microcontroller (CPU) and the memory, and other hardware elements such as: voltage sources, power outputs, and the ports needed to host the sensors and the IoT communication module. The microcontroller contains the embedded software, which performs the tasks of: reading the sensors connected to its ports, obtaining their information, creating the monitoring packets or frames, configuring and activating the communication module, and sending the data at intervals that can be variable depending on the programmed publication times, generating alerts, and performing control tasks. In addition, the software is available in open source C++ language, which allows you to have two programming modes, which we present in two branches: 
 
-- [No-Code (Corregir enlace)](https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/No-Code)
+- [No-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max)
 
-- [Full-Code (Corregir enlace)](https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/Full-Code)
+- [Full-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Full-Code/Kontrolog%20Max)
 
 ## Features
 The main technical features of this model of the Kontrolog Max device are listed below.
@@ -44,7 +44,7 @@ The main technical features of this model of the Kontrolog Max device are listed
   - For the Kontrolog 9.2: Up to 5 output relays, of which two can handle up to 12A@120VAC and three up to 3A@120VAC
   - For the Kontrolog 9.3: Up to 4 output relays, of which two can handle up to 12A@120VAC and two up to 3A@120VAC; and a fifth 4-20 mA analog output.
 
-  - One (1) USB type C port that allows communication with the programming and simulation environment, and also serves as a 5V power supply for the Kontrolog Max.
+- One (1) USB type C port that allows communication with the programming and simulation environment, and also serves as a 5V power supply for the Kontrolog Max.
     
 - To perform control tasks, such as:
   - Control by remote commands sent from the platform. 

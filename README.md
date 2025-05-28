@@ -77,10 +77,4 @@ Feel free to open issues or submit pull requests. Let’s build better automatio
 
 ---
 
-## 🛡️ License
-
-This project is licensed under the [MIT License](./LICENSE).
-
----
-
 **Omicron IoT Solutions** – Empowering industries through technology.

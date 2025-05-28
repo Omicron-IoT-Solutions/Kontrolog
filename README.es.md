@@ -1,7 +1,5 @@
+![LogoOmicron](https://github.com/user-attachments/assets/f890a717-9313-41db-8840-bc0509fda74e)
 # Kontrolog – Soluciones IoT Inteligentes para la Automatización Industrial. ![Inicio](https://github.com/user-attachments/assets/c9976b88-9475-49c7-acd8-9a4cdc7240c2)
-
-
-
 
 📄 **Disponible en otros idiomas**: [English version](./README.md)
 

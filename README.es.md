@@ -3,13 +3,11 @@
 
 ![Inicio](https://github.com/user-attachments/assets/c9976b88-9475-49c7-acd8-9a4cdc7240c2)
 
-📄 **Disponible en otros idiomas**: [English version](./README.md)
+📄 **Disponible en otros idiomas:** [English version](./README.md)
 
 Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable de **Omicron IoT Solutions**. Aquí encontrarás todo lo necesario para implementar soluciones de automatización industrial modernas, seguras y accesibles.
 
 ---
-
-
 
 ## 🚀 ¿Qué es Kontrolog?
 
@@ -37,7 +35,7 @@ Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable 
 
 ---
 
-## 🏭 Casos de Uso
+## 🏭 Casos de Uso:
 
 - 🌊 Monitoreo de calidad de agua en piscicultura y camaroneras.
 - ⚡ Supervisión remota de generadores eléctricos.
@@ -55,7 +53,7 @@ Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable 
 
 ---
 
-## 🌐 Enlaces útiles
+## 🌐 Enlaces útiles:
 
 - 🔗[Sitio web oficial](https://omicroniot.com/)
 - 🔗[Cuenta de Linkedin](https://www.linkedin.com/company/omicron-iot/?originalSubdomain=co)
@@ -64,7 +62,7 @@ Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable 
 
 ---
 
-## 📞 Contacto
+## 📞 Contacto.
 
 ¿Quieres llevar Kontrolog a tu industria o proyecto?
 
@@ -73,7 +71,7 @@ Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable 
 
 ---
 
-## 🔧 Contribuciones
+## 🔧 Contribuciones.
 
 Este repositorio está en evolución constante. Si deseas colaborar, ¡no dudes en enviar tus sugerencias o pull requests!
 

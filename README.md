@@ -3,7 +3,7 @@
 
 ![448563209-c9976b88-9475-49c7-acd8-9a4cdc7240c2](https://github.com/user-attachments/assets/ae8928f2-15ad-4db8-8a0a-1029657b3957)
 
-📄 **Available in other languages**: [Versión en Español](./README.es.md)
+📄 **Available in other languages:** [Versión en Español](./README.es.md)
 
 Welcome to the official repository of **Kontrolog**, the programmable controller developed by **Omicron IoT Solutions**. This is your gateway to building reliable, scalable, and accessible industrial automation systems.
 
@@ -35,7 +35,7 @@ Welcome to the official repository of **Kontrolog**, the programmable controller
 
 ---
 
-## 🏭 Use Cases
+## 🏭 Use Cases:
 
 - 🌊 Water quality monitoring for aquaculture and shrimp farms.
 - ⚡ Remote monitoring of power generators.
@@ -43,7 +43,7 @@ Welcome to the official repository of **Kontrolog**, the programmable controller
 
 ---
 
-## 📚 Repository Contents
+## 📚 Repository Contents:
 
 - 📄 Technical documentation, datasheets, and manuals.
 - 📦 Firmware for both Kontrolog Max and Mini.
@@ -53,7 +53,7 @@ Welcome to the official repository of **Kontrolog**, the programmable controller
 
 ---
 
-## 🌐 Useful Links
+## 🌐 Useful Links:
 
 - 🔗[Official website](https://omicroniot.com/)
 - 🔗[Linkedin account](https://www.linkedin.com/company/omicron-iot/?originalSubdomain=co)
@@ -62,7 +62,7 @@ Welcome to the official repository of **Kontrolog**, the programmable controller
 
 ---
 
-## 📞 Contact Us
+## 📞 Contact Us.
 
 Interested in bringing Kontrolog to your business or industry?
 
@@ -71,7 +71,7 @@ Interested in bringing Kontrolog to your business or industry?
 
 ---
 
-## 🔧 Contributing
+## 🔧 Contributing.
 
 Feel free to open issues or submit pull requests. Let’s build better automation, together.
 

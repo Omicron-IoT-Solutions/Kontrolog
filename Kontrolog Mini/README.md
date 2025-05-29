@@ -1,4 +1,8 @@
+![266786784-1d867a2d-2f0b-40eb-bbb9-566f306320ba](https://github.com/user-attachments/assets/2ed5f521-2b13-472a-b7aa-a4604cd8a80a)
+
 # **📆 Kontrolog Mini – Board Support Package (BSP)**
+
+![370817839-ce062b7b-13b5-4596-9dc3-d58d14262f44](https://github.com/user-attachments/assets/b715e657-dd6a-4022-b271-52906411e6b5)
 
 📄 **Available in other languages**: [Versión en Español](./README.es.md)
 

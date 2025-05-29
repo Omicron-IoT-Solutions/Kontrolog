@@ -1,48 +1,45 @@
-![LogoOmicron](https://github.com/user-attachments/assets/3809b801-0786-4142-b4dd-a6c9fa5a48f0)
 
-# 📚 Kontrolog Max – Acceso a Documentación.
+# 📚 Kontrolog Max – Documentation Access.
 
-![KMax](https://github.com/user-attachments/assets/31083af2-7bd4-4a7b-95d4-5478c5b90eed)
+Welcome! In this section, you'll find the essential documentation to understand and work with your **Kontrolog Max** device.
 
-¡Bienvenido! En esta sección encontrarás la documentación esencial para conocer y trabajar con tu dispositivo **Kontrolog Max**.
-
-Todos los recursos están disponibles en **español e inglés**.
+All resources are available in **English and Spanish**.
 
 ---
 
-## 🗂️ Materiales disponibles:
+## 🗂️ Available Materials:
 
-### 📄 Hojas de datos:
+### 📄 Datasheets:
 
-Consulta las especificaciones técnicas de los  componentes  utilizados en el Kontrolog Max.
-
----
-
-### 🛠️ Esquemático simplificado:
-
-Comprende cómo están conectados los componentes internos y los puertos de entrada/salida del Kontrolog Max.
+Review the technical specifications of the components used in the Kontrolog Max.
 
 ---
 
-### 📘 Manuales y guías de uso:
+### 🛠️ Simplified Schematic:
 
-Instrucciones paso a paso para configurar, alimentar, conectar y utilizar el dispositivo.
-
----
-
-### 🎬 Video tutoriales:
-
-Accede a la playlist dedicada en YouTube con videos que te guiarán para iniciar, configurar la comunicación y más.
+Understand how the internal components and input/output ports of the Kontrolog Max are connected.
 
 ---
 
-## 📞 Contacto:
+### 📘 Manuals and Usage Guides:
 
-¿Tienes preguntas o necesitas asistencia?
-
-* 📧 Correo electrónico: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
-* 📱 WhatsApp / Teléfono: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
+Step-by-step instructions for powering, configuring, connecting, and using the device.
 
 ---
 
-**Omicron IoT Solutions** – Aprende, programa y conéctate con Kontrolog Max.
+### 🎬 Video Tutorials:
+
+Access the dedicated YouTube playlist with videos that guide you through getting started, setting up communication, and more.
+
+---
+
+## 📞 Contact:
+
+Do you have questions or need assistance?
+
+* 📧 Email: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
+* 📱 WhatsApp / Phone: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
+
+---
+
+**Omicron IoT Solutions** – Learn, develop, and connect with Kontrolog Max.

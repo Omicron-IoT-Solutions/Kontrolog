@@ -4,7 +4,7 @@
 
 ![KMax](https://github.com/user-attachments/assets/8080cc16-a4fe-4d14-889e-d9b566065bc4)
 
-📄 **Also available in Spanish**: [Versión en Español](./README.es.md).
+📄 **Also available in Spanish**: [Versión en Español](./README.es.md)
 
 ---
 
@@ -27,8 +27,8 @@ The **Kontrolog Max** is a programmable controller based on **ESP32** technology
 
 Available in the following branches:
 
-* 🔧 [No-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max).
-* 🧑‍💻 [Full-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Full-Code/Kontrolog%20Max).
+* 🔧 [No-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max)
+* 🧑‍💻 [Full-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Full-Code/Kontrolog%20Max)
 
 ---
 
@@ -106,8 +106,8 @@ The system is delivered ready to use with the selected wireless communication mo
 
 Do you have questions or want to implement Kontrolog Max in your industry or project?
 
-* 📧 Email: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
-* 📱 WhatsApp / Phone: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
+* 📧 Email: [solutions@omicroniot.com](mailto:solutions@omicroniot.com)
+* 📱 WhatsApp / Phone: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281)
 
 ---
 

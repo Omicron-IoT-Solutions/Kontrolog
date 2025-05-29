@@ -1,6 +1,6 @@
 # **📆 Kontrolog Mini – Board Support Package (BSP)**
 
-📄 **Available in other languages**: [Versión en Español](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/Full-Code/Kontrolog%20Mini/docs/Espa%C3%B1ol/README.md)
+📄 **Available in other languages**: [Versión en Español](./README.es.md)
 
 ---
 

@@ -27,8 +27,8 @@ El **Kontrolog Max** es un controlador programable basado en tecnología **ESP32
 
 Disponible en las ramas:
 
-* 🔧 [No-Code (Corregir enlace)](https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/No-Code)
-* 🧑‍💻 [Full-Code (Corregir enlace)](https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/Full-Code)
+* 🔧 [No-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max)
+* 🧑‍💻 [Full-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Full-Code/Kontrolog%20Max)
 
 ---
 

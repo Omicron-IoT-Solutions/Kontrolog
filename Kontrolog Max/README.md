@@ -4,7 +4,7 @@
 
 ![KMax](https://github.com/user-attachments/assets/8080cc16-a4fe-4d14-889e-d9b566065bc4)
 
-📄 **Also available in Spanish**: [Versión en Español](./README.es.md)
+📄 **Also available in Spanish:** [Versión en Español](./README.es.md)
 
 ---
 

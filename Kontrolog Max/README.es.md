@@ -4,7 +4,7 @@
 
 ![KMax](https://github.com/user-attachments/assets/8e7dcbea-64a1-40af-b2e2-db53c6870999)
 
-📄 **Disponible también en inglés**: [English version](./README.md)
+📄 **Disponible también en inglés:** [English version](./README.md)
 
 ---
 

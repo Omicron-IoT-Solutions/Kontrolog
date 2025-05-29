@@ -1,5 +1,8 @@
+![LogoOmicron](https://github.com/user-attachments/assets/49fd7ef4-4efe-44ae-9a93-6a5382c3d456)
 
 # 📚 Kontrolog Max – Documentation Access.
+
+![KMax](https://github.com/user-attachments/assets/af1de8ae-49e8-4ca1-af0d-0ea2c8b2f4b9)
 
 Welcome! In this section, you'll find the essential documentation to understand and work with your **Kontrolog Max** device.
 

@@ -4,7 +4,7 @@
 
 ![bitmap2](https://github.com/user-attachments/assets/ce062b7b-13b5-4596-9dc3-d58d14262f44)
 
-📄 **Disponible también en inglés**: [English version](./docs/English/README.md)
+📄 **Disponible en otros idiomas**: [English version](./README.md)
 
 ---
 

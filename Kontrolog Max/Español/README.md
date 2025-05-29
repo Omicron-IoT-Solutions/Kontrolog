@@ -40,8 +40,8 @@ Accede a la playlist dedicada en YouTube con videos que te guiarán para iniciar
 
 ¿Tienes preguntas o necesitas asistencia?
 
-* 📧 Correo electrónico: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
-* 📱 WhatsApp / Teléfono: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
+* 📧 Correo electrónico: [solutions@omicroniot.com](mailto:solutions@omicroniot.com)
+* 📱 WhatsApp / Teléfono: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281)
 
 ---
 

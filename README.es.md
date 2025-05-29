@@ -1,6 +1,6 @@
 ![LogoOmicron](https://github.com/user-attachments/assets/c9b237a1-f28c-4d99-9a94-333a46a5f5f9)
 
-# Kontrolog en modo Full-Code – BSP y Recursos para Desarrollo.
+# Kontrolog en modo Full-Code: BSP y Recursos para Desarrollo.
 
 ![FullCode](https://github.com/user-attachments/assets/434381ca-93ab-4840-a398-e471c020eb8a)
 

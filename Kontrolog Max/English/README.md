@@ -45,4 +45,4 @@ Do you have questions or need assistance?
 
 ---
 
-**Omicron IoT Solutions** – Learn, develop, and connect with Kontrolog Max.
+**Omicron IoT Solutions**

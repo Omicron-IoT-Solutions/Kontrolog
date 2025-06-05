@@ -77,4 +77,4 @@ Feel free to open issues or submit pull requests. Let’s build better automatio
 
 ---
 
-**Omicron IoT Solutions** – Empowering industries through technology.
+**Omicron IoT Solutions**

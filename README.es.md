@@ -77,4 +77,4 @@ Este repositorio está en evolución constante. Si deseas colaborar, ¡no dudes 
 
 ---
 
-**Omicron IoT Solutions** – Tecnología para transformar industrias.
+**Omicron IoT Solutions**

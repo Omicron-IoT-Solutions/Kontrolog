@@ -45,4 +45,4 @@ Accede a la playlist dedicada en YouTube con videos que te guiarán para iniciar
 
 ---
 
-**Omicron IoT Solutions** – Aprende, programa y conéctate con Kontrolog Max.
+**Omicron IoT Solutions**

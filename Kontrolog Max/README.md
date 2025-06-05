@@ -111,4 +111,4 @@ Do you have questions or want to implement Kontrolog Max in your industry or pro
 
 ---
 
-**Omicron IoT Solutions** – Technology that powers your industry with IoT.
+**Omicron IoT Solutions**

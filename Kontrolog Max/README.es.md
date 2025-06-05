@@ -112,4 +112,4 @@ El sistema se entrega listo para usarse con los módulos de comunicación solici
 
 ---
 
-**Omicron IoT Solutions** – Tecnología que potencia tu industria con IoT.
+**Omicron IoT Solutions**

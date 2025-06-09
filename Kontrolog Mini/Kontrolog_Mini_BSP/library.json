@@ -5,7 +5,7 @@
   "keywords": ["kontrolog", "mini", "iot", "esp32", "plc"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/Full-Code"
+    "url": "https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/Full-Code/Kontrolog%20Mini/Kontrolog_Mini_BSP"
   },
   "authors": [
     {

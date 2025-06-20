@@ -1,7 +1,7 @@
 ![LogoOmicron](https://github.com/user-attachments/assets/f890a717-9313-41db-8840-bc0509fda74e)
 # Kontrolog – Soluciones IoT Inteligentes para la Automatización Industrial.
 
-![Inicio](https://github.com/user-attachments/assets/c9976b88-9475-49c7-acd8-9a4cdc7240c2)
+![Imagen9](https://github.com/user-attachments/assets/2625b2b7-17ee-4f54-8386-546816aff3bb)
 
 📄 **Disponible en otros idiomas:** [English version](./README.md)
 
@@ -15,12 +15,11 @@ Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable 
 
 - 🔹 **Kontrolog Max** – Para aplicaciones industriales robustas con múltiples salidas de relé o salidas analógicas (4–20 mA).
 
-  ![Kontrolog Max_r](https://github.com/user-attachments/assets/a0cf5bd0-edb6-4ca5-80e3-7188b1e036ca)
+![KMax 1](https://github.com/user-attachments/assets/7a507b32-4343-4eef-bbc8-c25225751a61)
 
 - 🔹 **Kontrolog Mini** – Una versión compacta y de bajo consumo, ideal para soluciones IoT distribuidas y personalizables.
 
-  ![Kontrolog Mini](https://github.com/user-attachments/assets/631e416c-bcfd-424f-af23-e56ad9867df7)
-
+![IMG_20250613_150352279_HDR_AE](https://github.com/user-attachments/assets/c60c3195-0aec-4831-a66c-f95c988082e8)
 
 ---
 

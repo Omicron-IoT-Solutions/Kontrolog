@@ -2,7 +2,7 @@
 
 # 📚 Kontrolog Max – Acceso a la documentación.
 
-![KMax](https://github.com/user-attachments/assets/31083af2-7bd4-4a7b-95d4-5478c5b90eed)
+![Imagen10](https://github.com/user-attachments/assets/6627016a-638e-4801-a627-c30e1dc02602)
 
 ¡Bienvenido! En esta sección encontrarás la documentación esencial para conocer y trabajar con tu dispositivo **Kontrolog Max**.
 

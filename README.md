@@ -1,7 +1,7 @@
 ![Logo-Omicron-Vector](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/1d867a2d-2f0b-40eb-bbb9-566f306320ba)
 # Kontrolog – Smart IoT Solutions for Industrial Automation.
 
-![448563209-c9976b88-9475-49c7-acd8-9a4cdc7240c2](https://github.com/user-attachments/assets/ae8928f2-15ad-4db8-8a0a-1029657b3957)
+![Imagen9](https://github.com/user-attachments/assets/6191610d-66dc-45b2-8977-ce2c45900e3c)
 
 📄 **Available in other languages:** [Versión en Español](./README.es.md)
 
@@ -15,12 +15,11 @@ Welcome to the official repository of **Kontrolog**, the programmable controller
 
 - 🔹 **Kontrolog Max** – Designed for robust industrial environments with multiple relay or analog (4–20 mA) outputs.
 
-  ![448556736-a0cf5bd0-edb6-4ca5-80e3-7188b1e036ca](https://github.com/user-attachments/assets/d4622ffa-b71d-4bb0-bdb9-c474ba433b09)
+![KMax 1](https://github.com/user-attachments/assets/9d53cce9-d661-4f55-8356-f702398ed571)
 
 - 🔹 **Kontrolog Mini** – A compact, low-power version perfect for distributed and customizable IoT solutions.
 
-  ![448556852-631e416c-bcfd-424f-af23-e56ad9867df7](https://github.com/user-attachments/assets/ab7b7c8b-fbc5-4552-bb72-22e141a73ef1)
-
+![IMG_20250613_150352279_HDR_AE](https://github.com/user-attachments/assets/b57db48b-1234-4028-aa4b-bb8167062e7a)
 
 ---
 

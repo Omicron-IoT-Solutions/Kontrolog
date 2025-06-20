@@ -2,7 +2,7 @@
 
 # 📊 Kontrolog Max – Controlador IoT Programable.
 
-![KMax](https://github.com/user-attachments/assets/8e7dcbea-64a1-40af-b2e2-db53c6870999)
+![Imagen10](https://github.com/user-attachments/assets/d282fda2-29cf-4c98-8303-435b37798cd8)
 
 📄 **Disponible también en inglés:** [English version](./README.md)
 

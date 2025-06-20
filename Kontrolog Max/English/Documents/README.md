@@ -3,4 +3,4 @@
 ## Manuals and technical documentation - English version
 This repository contains manuals, guides, schematics, datasheets and support documents for your Kontrolog Max device.
 
-![DSC_0153](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/4fdf232e-7254-4357-8cfe-3ce109182493)
+![Imagen10](https://github.com/user-attachments/assets/8d1467e3-244b-4ed8-acbb-36643335542c)

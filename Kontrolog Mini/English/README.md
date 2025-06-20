@@ -6,7 +6,7 @@
 
 Welcome! In this section, you'll find the essential documentation to understand and work with your **Kontrolog Mini** device.
 
-All resources are available in **english and [spanish](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Home/Kontrolog%20Mini/Espa%C3%B1ol)**.
+All resources are available in **english and [spanish (español)](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Home/Kontrolog%20Mini/Espa%C3%B1ol)**.
 
 ---
 

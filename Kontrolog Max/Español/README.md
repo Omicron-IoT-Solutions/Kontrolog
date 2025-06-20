@@ -6,7 +6,7 @@
 
 ¡Bienvenido! En esta sección encontrarás la documentación esencial para conocer y trabajar con tu dispositivo **Kontrolog Max**.
 
-Todos los recursos están disponibles en **español e [inglés](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Home/Kontrolog%20Max/English)**.
+Todos los recursos están disponibles en **español e [inglés (english)](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Home/Kontrolog%20Max/English)**.
 
 ---
 

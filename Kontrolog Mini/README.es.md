@@ -27,8 +27,8 @@ El **Kontrolog Mini** es un controlador programable basado en tecnología **ESP3
 
 Disponible en las ramas:
 
-* 🔧 [No-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/No-Code).
-* 🧑‍💻 [Full-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog-Mini/tree/Full-Code).
+* 🔧 [No-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Mini).
+* 🧑‍💻 [Full-Code](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Full-Code/Kontrolog%20Mini).
 
 ---
 

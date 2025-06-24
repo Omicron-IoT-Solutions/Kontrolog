@@ -2,9 +2,9 @@
 
 # **📆 Kontrolog Max – Board Support Package (BSP)**
 
-📄 **![Imagen12](https://github.com/user-attachments/assets/71f36d3e-9af5-422a-a504-220d3191cc78)
+![Imagen12](https://github.com/user-attachments/assets/71f36d3e-9af5-422a-a504-220d3191cc78)
 
-Available in other languages**: [Versión en Español](./README.es.md)
+📄 **Available in other languages**: [Versión en Español](./README.es.md)
 
 ---
 

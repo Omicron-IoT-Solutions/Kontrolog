@@ -7,8 +7,7 @@
 📄 **Available in other languages**: [Versión en Español](./README.es.md)
 
 Welcome to the **Full-Code** branch of the Kontrolog project by **Omicron IoT Solutions**.
-This environment is designed for advanced users and developers who want to work directly with the source code and the Board Support Packages (**BSP**) ![Uploading Imagen13.png…]()
-of **Kontrolog Max** and **Kontrolog Mini**.
+This environment is designed for advanced users and developers who want to work directly with the source code and the Board Support Packages (**BSP**) of **Kontrolog Max** and **Kontrolog Mini**.
 
 ---
 

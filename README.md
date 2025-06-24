@@ -1,6 +1,6 @@
 ![LogoOmicron](https://github.com/user-attachments/assets/5d2883cd-2350-4a4d-9b14-9bf76756f220)
 
-# 🧩 Kontrolog – No-Code Branch.
+# 🧩 Kontrolog: No-Code Branch.
 
 ![Imagen15](https://github.com/user-attachments/assets/79e28105-dbc8-4c63-b631-a00018ef4d8e)
 

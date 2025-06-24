@@ -1,57 +1,123 @@
-![Logo-Omicron-Vector](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/1d867a2d-2f0b-40eb-bbb9-566f306320ba)
-# Kontrolog Max in No-Code mode
-## General
-This branch contains the Firmaware code (default programming of the device) for the Kontrolog Max to be programmed locally through the graphical HMI interface provided, the device's captive portal, or remotely through the IoT Web platform, as well as examples and guided tutorials for you to learn how to program in No-Code mode your Kontrolog Max.
+![LogoOmicron](https://github.com/user-attachments/assets/d9f83630-a11e-481d-b205-3f96a689434e)
 
-## Flashing Firmware to the Kontrolog Max
-![Imagen1](https://github.com/user-attachments/assets/37fd4bb7-4cba-4d6c-b353-0b62dececda8)
-[The Kontrolog Max Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware) contains the factory default code, which is programmed into the Kontrolog Max from the moment you receive it for your purchase, where you only need to link it to the graphical HMI or IoT Web platform and you can start configuring alarms, inputs and outputs, and monitor the status of them.
+# 🧩 Kontrolog Max in No-Code mode.
 
-To install the Firmware we provide you, you must install the “FLASH DOWNLOAD TOOL” program, which you can find at the following [link](https://www.espressif.com/en/support/download/other-tools)
+![Imagen1](https://github.com/user-attachments/assets/37be2497-2c82-45b1-b3df-542347596359)
 
-![Imagen2](https://github.com/user-attachments/assets/fc215966-4041-422f-84bb-b3eeed420ba5)
+📄 **Also available in Spanish**: [Versión en Español](./README.es.md).
 
-Once installed, download the [Firmware binary file](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware) and connect your Kontrolog Max to your computer using the USB-C cable. Then, run the downloaded application and set, in the download tool mode, ESP32 as the chip type and the working mode as development. 
+---
 
-![Imagen3](https://github.com/user-attachments/assets/984e6492-870a-4387-b2a1-094750439a2d)
+## 📘 Overview:
 
-Now you must assign to the software the location where the downloaded firmware file is located and set the memory address to 0x10000. Make sure that the following parameters are assigned:
-- SPI Speed in 40MHz.
-- SPI mode in DIO.
-- The “DoNotChgBin” option must be enabled.
-  
-Select the communication port your Kontrolog Max is connected to on your computer and set the baud rate to 460800 Baud. With this you can start downloading the Firmaware to your Kontrolog Max and it is ready to be configured. 
+This branch contains the default firmware for the **Kontrolog Max**, allowing it to be configured without writing any code, through three main methods:
 
-![Imagen4](https://github.com/user-attachments/assets/4aad81dd-59d8-40c9-bd78-ba3652b1fefd)
+* Local HMI graphical interface.
+* Captive portal via WiFi.
+* IoT web platform (if enabled).
 
-## Simulating our graphic HMI
-For practical purposes, you will be able to verify this code by simulating it using the NEXTION software, which allows you to simulate and implement graphical HMI interfaces. You will need to download and install this software, which you will find at the following [link](https://nextion.tech/nextion-editor/)
+It also includes examples and tutorials to guide you step by step through installation and use in No-Code mode.
 
-![Imagen5](https://github.com/user-attachments/assets/294eecee-2c46-407a-bc09-050294e6581c)
+> ✅ **Ideal for technicians, professionals, students, and integrators.**
 
-Next, download the [.HMI file](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Display), which is the code we provide so that you can simulate the HMI screen in NEXTION and which is also the code that is set in the HMI screens that allow you to program the Kontrolog Max locally in No-Code mode.
+---
 
-Run Nextion, connect your Kontrolog Max to your computer via USB-C cable, and select the option that allows you to open documents and indicate the .HMI file you have previously downloaded, and start the debug mode so you can simulate the HMI screen with which you can configure your Kontrolog Max.
+## ⚙️ How to upload the firmware to Kontrolog Max?:
 
-![Imagen6](https://github.com/user-attachments/assets/83b7a714-c48e-43a1-9cf7-6307f888263b)
+The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware) is the default factory software that comes pre-installed on your device. However, you can reinstall or update it manually if needed.
 
-Once the debug interface is open, set the following configurations and... You can start your simulation!
-- Set as “Current Simulator” in the “send command to:” option.
-- Select the “User MCU input” option.
-- Set the baud rate to 115200 Baud.
-- Indicate the communication port on which you have connected your Kontrolog Max to your computer.
+### Steps:
 
-![Imagen7](https://github.com/user-attachments/assets/cb5291b9-c9d8-445f-ae72-a3d91c251c6b)
+1. Download and install the **[Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)**.
 
-## Configuring the Kontrolog Max from the captive portal
-When you turn on your Kontrolog Max, in its default configuration, it generates a temporary WiFi network for 2 minutes. This network is named "Kontrolog_xxxxxxxxxxx", followed by the device ID (for example, **"Kontrolog_bcddc212345"**). Connect to this network from any internet-capable device and enter the password **"OmicronIoT12345678"**. Now, open any web browser and enter the device's default IP address **192.168.4.1**. Upon accessing it, the captive portal's home screen for your Kontrolog Max should appear.
+![Imagen2](https://github.com/user-attachments/assets/d830d2c1-2b5f-41d7-9aa4-316e00b37646)
 
-![Imagen8](https://github.com/user-attachments/assets/0da060f1-f171-41c8-a78d-dda696d925e2)
+2. Download the `.bin` firmware file from the repository.
+3. Connect your Kontrolog Max to your PC via USB-C cable.
+4. Open Flash Download Tool and select:
 
-From the Kontrolog Max captive portal, you will be able to:
-- Connect the Kontrolog Max to the Internet for wireless data transmission.
-- Establish communication with your preferred Ubidots cloud server account.
-- Monitor and configure the operation of the input pins (analog and digital) and output pins (relay and digital) of the Kontrolog Max.
-- Check the MAC address and the installed version of your Kontrolog Max device.
+   * **Chip**: ESP32.
+   * **Mode**: Development.
 
-The important thing about this tool is that your Kontrolog Max is already enabled so you can configure it through the HMI interface or through the IoT web platform. From the tool where you are programming the Kontrolog Max, you can configure the inputs and outputs, indicate the functions you want them to perform such as sensor readings, activation of relay outputs, define the types of communication you want to use and assign the functions for the LED and the buzzer. Just manipulate the control tools to know how to set the functions you want your Kontrolog Max to perform.
+![Imagen3](https://github.com/user-attachments/assets/dc8715cd-fe37-4aad-93b5-ffe1435367ec)
+
+5. Load the `.bin` file and configure:
+
+   * Memory address: `0x10000`.
+   * SPI Speed: `40MHz`.
+   * SPI Mode: `DIO`.
+   * Enable “DoNotChgBin”.
+6. Select the correct COM port and baud rate: `460800 Baud`.
+7. Click Start to flash the firmware onto your device.
+
+![Imagen4](https://github.com/user-attachments/assets/0a965cd7-595f-4141-aa59-d5a2ba10c06d)
+
+---
+
+## 🖥️ Simulating the HMI screen:
+
+You can simulate the touch interface of the Kontrolog Max using the **[Nextion Editor](https://nextion.tech/nextion-editor/)** software.
+
+### Steps:
+
+1. Download and install Nextion Editor.
+
+![Imagen5](https://github.com/user-attachments/assets/45701c91-f855-4795-b4de-9208c3d0a62a)
+
+2. Download the [.HMI file](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Display).
+3. Open it in Nextion Editor.
+4. Launch debug mode.
+
+![Imagen6](https://github.com/user-attachments/assets/a924e41f-6013-4a0a-b0d7-275547a75170)
+
+5. Configure:
+
+   * **Send command to**: “Current Simulator”.
+   * **User MCU input**: enabled.
+   * **Baudrate**: `115200`.
+   * **Port**: same COM port connected to your Kontrolog Max.
+
+![Imagen7](https://github.com/user-attachments/assets/aebb5222-47fa-454e-8ee6-0c7e21311bef)
+
+This allows you to simulate the real HMI screen experience and configure basic parameters.
+
+---
+
+## 🌐 Configuration via captive portal:
+
+By default, when powered on, the Kontrolog Max creates a temporary WiFi network:
+
+```
+Kontrolog_xxxxxxxxxxx
+```
+
+(Example: `Kontrolog_bcddc212345`).
+
+### Steps:
+
+1. Connect to this WiFi network from your PC or mobile (password: `OmicronIoT12345678`).
+2. Open a browser and go to: `192.168.4.1`.
+
+From the captive portal you can:
+
+* Connect the device to the internet.
+* Link your account to the cloud (Ubidots).
+* Monitor and configure inputs and outputs.
+* View the MAC address and firmware version.
+
+![Imagen8](https://github.com/user-attachments/assets/666492e7-84ff-4054-98aa-303487e7e8d6)
+
+This allows you to configure the Kontrolog Max without coding, using a visual and user-friendly interface.
+
+---
+
+## 📞 Contact:
+
+Do you have questions or need support?
+
+* 📧 Email: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
+* 📱 WhatsApp / Phone: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
+
+---
+
+**Omicron IoT Solutions**

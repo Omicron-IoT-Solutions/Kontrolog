@@ -1,6 +1,6 @@
 ![LogoOmicron](https://github.com/user-attachments/assets/f82f079a-b7a6-49da-8983-e99cf9e89d75)
 
-# 🧩 Kontrolog – Rama No-Code.
+# 🧩 Kontrolog en modo No-Code.
 
 ![Imagen15](https://github.com/user-attachments/assets/a830ddc6-fd9c-434f-855e-2dba6ede81f8)
 

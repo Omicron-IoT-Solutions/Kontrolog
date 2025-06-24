@@ -2,7 +2,7 @@
 
 # 📆 Kontrolog Mini – Board Support Package (BSP)
 
-![bitmap2](https://github.com/user-attachments/assets/ce062b7b-13b5-4596-9dc3-d58d14262f44)
+![458474100-dae119af-4867-4a18-a82f-a2c2725e21b4](https://github.com/user-attachments/assets/2f764f75-c2cd-471b-813f-434569d5f4f2)
 
 📄 **Disponible en otros idiomas**: [English version](./README.md)
 
@@ -54,7 +54,7 @@ Espressif ESP32 Dev Module
 
 > Framework por defecto: **Arduino**
 
-![Captura de pantalla 2024-10-01 084556](https://github.com/user-attachments/assets/755282c3-2c37-470c-a1ab-5080e34b671c)
+![448928778-611ca6b2-87bf-48db-94ea-f8dcde6dee67](https://github.com/user-attachments/assets/6605b321-1357-4c13-95b3-c17a8f21dabc)
 
 ---
 
@@ -68,7 +68,7 @@ Kontrolog Mini
 
 > Palabras clave útiles: `kontrolog`, `mini`, `iot`, `esp32`, `plc`
 
-![Captura de pantalla 2024-10-01 090355](https://github.com/user-attachments/assets/f00a9eb2-4b1d-4f98-acf3-7baf086da0d0)
+![448928995-d44f66de-ef81-4cf8-b797-296cbe1f9b61](https://github.com/user-attachments/assets/fc72caca-0d82-477c-948b-3f9099c5a628)
 
 ---
 
@@ -102,7 +102,7 @@ FS
 
 Guarda los cambios realizados. Esto permitirá una compilación exitosa y el correcto funcionamiento de tu código.
 
-![Captura de pantalla 2024-10-01 091138](https://github.com/user-attachments/assets/954452e5-9bf8-4709-97aa-532de264bfa2)
+![448929228-b3badfd3-ba55-4d4a-9653-6a666387187b](https://github.com/user-attachments/assets/ffa7b0bb-3171-4dd9-897c-e4578de0b312)
 
 ---
 

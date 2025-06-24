@@ -2,12 +2,13 @@
 
 # Kontrolog Full-Code Mode: BSP and Development Resources.
 
-![FullCode](https://github.com/user-attachments/assets/2570abd0-34aa-425c-b804-33d4423cea69)
+![Imagen13](https://github.com/user-attachments/assets/3c36e7a4-af7c-48ac-956f-898242bd6b71)
 
 📄 **Available in other languages**: [Versión en Español](./README.es.md)
 
 Welcome to the **Full-Code** branch of the Kontrolog project by **Omicron IoT Solutions**.
-This environment is designed for advanced users and developers who want to work directly with the source code and the Board Support Packages (**BSP**) of **Kontrolog Max** and **Kontrolog Mini**.
+This environment is designed for advanced users and developers who want to work directly with the source code and the Board Support Packages (**BSP**) ![Uploading Imagen13.png…]()
+of **Kontrolog Max** and **Kontrolog Mini**.
 
 ---
 

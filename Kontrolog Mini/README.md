@@ -1,6 +1,6 @@
 ![LogoOmicron](https://github.com/user-attachments/assets/d9f83630-a11e-481d-b205-3f96a689434e)
 
-# 🧩 Kontrolog Max in No-Code mode.
+# 🧩 Kontrolog Mini in No-Code mode.
 
 ![Imagen1](https://github.com/user-attachments/assets/37be2497-2c82-45b1-b3df-542347596359)
 
@@ -10,7 +10,7 @@
 
 ## 📘 Overview:
 
-This branch contains the default firmware for the **Kontrolog Max**, allowing it to be configured without writing any code, through three main methods:
+This branch contains the default firmware for the **Kontrolog Mini**, allowing it to be configured without writing any code, through three main methods:
 
 * Local HMI graphical interface.
 * Captive portal via WiFi.
@@ -22,9 +22,9 @@ It also includes examples and tutorials to guide you step by step through instal
 
 ---
 
-## ⚙️ How to upload the firmware to Kontrolog Max?:
+## ⚙️ How to upload the firmware to Kontrolog Mini?:
 
-The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware) is the default factory software that comes pre-installed on your device. However, you can reinstall or update it manually if needed.
+The [Kontrolog Mini firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Mini/Firmware) is the default factory software that comes pre-installed on your device. However, you can reinstall or update it manually if needed.
 
 ### Steps:
 
@@ -33,7 +33,7 @@ The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/
 ![Imagen2](https://github.com/user-attachments/assets/d830d2c1-2b5f-41d7-9aa4-316e00b37646)
 
 2. Download the `.bin` firmware file from the repository.
-3. Connect your Kontrolog Max to your PC via USB-C cable.
+3. Connect your Kontrolog Mini to your PC via USB-C cable.
 4. Open Flash Download Tool and select:
 
    * **Chip**: ESP32.
@@ -56,7 +56,7 @@ The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/
 
 ## 🖥️ Simulating the HMI screen:
 
-You can simulate the touch interface of the Kontrolog Max using the **[Nextion Editor](https://nextion.tech/nextion-editor/)** software.
+You can simulate the touch interface of the Kontrolog Mini using the **[Nextion Editor](https://nextion.tech/nextion-editor/)** software.
 
 ### Steps:
 
@@ -64,7 +64,7 @@ You can simulate the touch interface of the Kontrolog Max using the **[Nextion E
 
 ![Imagen5](https://github.com/user-attachments/assets/45701c91-f855-4795-b4de-9208c3d0a62a)
 
-2. Download the [.HMI file](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Display).
+2. Download the [.HMI file](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Mini/Display).
 3. Open it in Nextion Editor.
 4. Launch debug mode.
 
@@ -75,7 +75,7 @@ You can simulate the touch interface of the Kontrolog Max using the **[Nextion E
    * **Send command to**: “Current Simulator”.
    * **User MCU input**: enabled.
    * **Baudrate**: `115200`.
-   * **Port**: same COM port connected to your Kontrolog Max.
+   * **Port**: same COM port connected to your Kontrolog Mini.
 
 ![Imagen7](https://github.com/user-attachments/assets/aebb5222-47fa-454e-8ee6-0c7e21311bef)
 
@@ -85,7 +85,7 @@ This allows you to simulate the real HMI screen experience and configure basic p
 
 ## 🌐 Configuration via captive portal:
 
-By default, when powered on, the Kontrolog Max creates a temporary WiFi network:
+By default, when powered on, the Kontrolog Mini creates a temporary WiFi network:
 
 ```
 Kontrolog_xxxxxxxxxxx
@@ -107,7 +107,7 @@ From the captive portal you can:
 
 ![Imagen8](https://github.com/user-attachments/assets/666492e7-84ff-4054-98aa-303487e7e8d6)
 
-This allows you to configure the Kontrolog Max without coding, using a visual and user-friendly interface.
+This allows you to configure the Kontrolog Mini without coding, using a visual and user-friendly interface.
 
 ---
 

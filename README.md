@@ -39,6 +39,10 @@ Welcome to the official repository of **Kontrolog**, the programmable controller
 - 🌊 Water quality monitoring for aquaculture and shrimp farms.
 - ⚡ Remote monitoring of power generators.
 - 🔄 Event counting in production lines.
+- 🌡️ Temperature and humidity control in production environments.
+- 🏭 Automation of small to medium industrial processes.
+- 🚰 Flow measurement in HVAC systems.
+- 🌐 Educational applications for IoT and automation training.
 
 ---
 

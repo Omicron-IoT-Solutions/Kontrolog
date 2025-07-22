@@ -39,6 +39,10 @@ Bienvenido al repositorio oficial del **Kontrolog**, el controlador programable 
 - 🌊 Monitoreo de calidad de agua en piscicultura y camaroneras.
 - ⚡ Supervisión remota de generadores eléctricos.
 - 🔄 Conteo automático de eventos en líneas de producción.
+- 🌡️ Control de temperatura y humedad en zonas de producción.
+- 🏭 Automatización de procesos industriales pequeños medianos.
+- 🚰 Medición de caudal en sistemas HVAC.
+- 🌐 Aplicaciones educativas para prácticas de IoT y control automático.
 
 ---
 

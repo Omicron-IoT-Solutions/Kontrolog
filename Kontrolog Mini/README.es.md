@@ -2,7 +2,7 @@
 
 # 🧩 Kontrolog Mini en modo No-Code.
 
-![Imagen1](https://github.com/user-attachments/assets/2fcfb911-ca10-46cc-97dd-0984f5d213d9)
+<img width="1065" height="673" alt="Imagen16" src="https://github.com/user-attachments/assets/29806c33-eb44-4ccd-b939-8bc8e5dcb41d" />
 
 📄 **Disponible también en inglés**: [English version](./README.md).
 

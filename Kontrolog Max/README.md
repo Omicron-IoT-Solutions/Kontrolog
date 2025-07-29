@@ -104,6 +104,16 @@ Save the changes. This will ensure successful compilation and correct operation 
 
 ---
 
+### **5. 🔁 Replace the esp32dev.json file**
+
+To ensure correct board configuration, replace the `esp32dev.json` file —found at the path `C: .platformio/platforms/espressif32/boards/`— with the customized version provided here:
+
+👉 [esp32dev.json](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/Full-Code/Kontrolog%20Max/esp32dev.json)
+
+This file contains advanced settings that enable optimized compilation and compatibility with Kontrolog Mini features.
+
+---
+
 ## **💡 What can you do?**
 
 This environment allows you to:

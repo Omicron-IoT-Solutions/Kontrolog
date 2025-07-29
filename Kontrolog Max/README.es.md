@@ -32,6 +32,7 @@ Esta rama contiene la documentación y los archivos básicos de encabezado e imp
 ├── README.md
 ├── library.json
 ├── platformio.ini
+├── PartitionsFlashKontrolog16MB.csv
 └── wokwi.toml
 ```
 

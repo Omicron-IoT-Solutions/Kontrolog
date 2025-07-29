@@ -105,7 +105,7 @@ Guarda los cambios realizados. Esto permitirá una compilación exitosa y el cor
 
 ### **5. 🔁 Reemplazar el archivo esp32dev.json**
 
-Para asegurar la correcta configuración de la placa, reemplaza el archivo `esp32dev.json`, que se encuentra en la ruta `C:\Users\<TU_USUARIO>\.platformio/platforms/espressif32/boards/`, de tu entorno por el archivo personalizado que se encuentra en la siguiente dirección:
+Para asegurar la correcta configuración de la placa, reemplaza el archivo `esp32dev.json` -que se encuentra en la ruta `C:\Users\<TU_USUARIO>\.platformio/platforms/espressif32/boards/`- de tu entorno por el archivo personalizado que se encuentra en la siguiente dirección:
 
 👉 [esp32dev.json](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/Full-Code/Kontrolog%20Mini/esp32dev.json).
 

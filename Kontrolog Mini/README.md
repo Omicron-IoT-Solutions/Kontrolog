@@ -36,6 +36,7 @@ This branch contains the documentation and the basic header and source files tha
 ├── README.md
 ├── library.json
 ├── platformio.ini
+├── PartitionsFlashKontrolog16MB.csv
 └── wokwi.toml
 ```
 
@@ -104,6 +105,16 @@ FS
 Save the changes. This will ensure successful compilation and correct operation of your code.
 
 ![372506405-954452e5-9bf8-4709-97aa-532de264bfa2](https://github.com/user-attachments/assets/b3badfd3-ba55-4d4a-9653-6a666387187b)
+
+---
+
+### **5. 🔁 Replace the esp32dev.json file**
+
+To ensure correct board configuration, replace the `esp32dev.json` file -found at the path `C:\Users\<YOUR_USER>\.platformio/platforms/espressif32/boards/`- with the customized version provided here:
+
+👉 [esp32dev.json](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/Full-Code/Kontrolog%20Mini/esp32dev.json)
+
+This file contains advanced settings that enable optimized compilation and compatibility with Kontrolog Mini features.
 
 ---
 

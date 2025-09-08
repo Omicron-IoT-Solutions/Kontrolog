@@ -1,61 +1,49 @@
 ![Logo-Omicron-Vector](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/1d867a2d-2f0b-40eb-bbb9-566f306320ba)
 
-# Kontrolog Full-Code Mode: BSP and Development Resources.
+# 🔗 Kontrolog + OpenPLC.
 
-![Imagen13](https://github.com/user-attachments/assets/3c36e7a4-af7c-48ac-956f-898242bd6b71)
+<img width="1438" height="673" alt="Imagen1(1)" src="https://github.com/user-attachments/assets/e353e8d3-743a-48d3-9c5b-3ebfbb2f4733" />
 
-📄 **Available in other languages**: [Versión en Español](./README.es.md)
-
-Welcome to the **Full-Code** branch of the Kontrolog project by **Omicron IoT Solutions**.
-This environment is designed for advanced users and developers who want to work directly with the source code and the Board Support Packages (**BSP**) of **Kontrolog Max** and **Kontrolog Mini**.
+📄 **Available in other languages**: [Versión en Español](./README.es.md).
 
 ---
 
-## 🧰 What's Included?
+## 📘 Overview
 
-* ✅ Complete Board Support Package (BSP) for both versions.
-* ✅ Installation guide for use with **PlatformIO** in **Visual Studio Code**.
-* ✅ Usage examples and tutorials.
-* ✅ Documentation available in **English and Spanish**.
+This branch is dedicated to the integration of **OpenPLC** with **Kontrolog Max** and **Kontrolog Mini**, giving users the ability to implement open programmable logic controllers on both versions of Kontrolog.
 
----
+With this branch, you will have access to everything needed to take advantage of OpenPLC alongside the robust and versatile Kontrolog hardware.
 
-## 🎯 Target Audience.
-
-This environment is intended for:
-
-* 🔧 Developers looking to modify or extend the firmware.
-* 🧠 Advanced users who need full control over the device's operation.
-* 🧪 Integrators looking to bring Kontrolog into custom or experimental projects.
+> ✅ **Ideal for students, professionals, technicians, integrators, and companies seeking to combine the flexibility of OpenPLC with the power of Kontrolog.**
 
 ---
 
-## ⚙️ Development Environment.
+## 🚀 What’s included in this branch?
 
-We recommend working with:
-
-* **PlatformIO** (as a Visual Studio Code extension).
-* Git (to clone or fork this branch).
-* Basic knowledge of embedded programming.
-
----
-
-## 📦 Getting Started.
-
-Please review the internal README files in this branch (available in English and Spanish), where you'll find:
-
-* 📦 BSP structure.
-* ⚙️ Installation steps.
-* 🧪 Usage examples.
+* 📂 Files and configurations required to use OpenPLC with your Kontrolog.
+* 🛠️ Essential tools you will need to prepare your Kontrolog for integration into a standard PLC-like configurable environment.
+* ⚙️ Recommendations for GPIO pin assignments based on the ESP32 distribution.
+* 🔧 Files to be replaced to ensure proper integration between OpenPLC Editor and Kontrolog.
+* 🎬 Tutorials and practical examples for both **Max** and **Mini** versions.
 
 ---
 
-## 📞 Need Help?
+## 🎯 Benefits of integrating OpenPLC with Kontrolog
 
-For technical support, collaboration, or business inquiries:
+* 🧩 **Flexibility**: take advantage of Ladder, ST, IL, or FBD programming with OpenPLC Editor.
+* ⚡ **Compatibility**: implement OpenPLC in both **Max** and **Mini** versions.
+* 🌐 **Accessibility**: open-source, cross-platform environment.
+* 📈 **Versatility**: ideal for industrial automation, prototyping, academic training, and IoT.
+* 🔗 **Extended support**: direct link to the [official OpenPLC documentation](https://autonomylogic.com/docs/openplc-overview/).
 
-* 📧 Email: [solutions@omicroniot.com](mailto:solutions@omicroniot.com)
-* 📱 WhatsApp / Phone: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281)
+---
+
+## 📞 Contact
+
+Do you have questions or need assistance?
+
+* 📧 Email: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
+* 📱 WhatsApp / Phone: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
 
 ---
 

@@ -59,4 +59,4 @@ Para soporte técnico, colaboración o consultas comerciales:
 
 ---
 
-**Omicron IoT Solutions** – Tecnología para desarrolladores que transforman industrias.
+**Omicron IoT Solutions**

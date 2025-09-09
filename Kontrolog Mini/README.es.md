@@ -30,7 +30,7 @@ Una vez instales estos programas, deberás añadir archivos de configuración al
 Coloca los siguientes archivos en la ruta:
 
 ```
-C:\\Users\\Personal\\OpenPLC_Editor\\editor\\arduino\\src
+C:\Users\Personal\OpenPLC_Editor\editor\arduino\src
 ```
 
 * **config.h**
@@ -41,7 +41,7 @@ C:\\Users\\Personal\\OpenPLC_Editor\\editor\\arduino\\src
 Y reemplaza el siguiente archivo en la ruta:
 
 ```
-C:\\Users\\Personal\\OpenPLC_Editor\\editor\\arduino\\src\\hal
+C:\Users\Personal\OpenPLC_Editor\editor\arduino\src\hal
 ```
 
 * **esp32.cpp**

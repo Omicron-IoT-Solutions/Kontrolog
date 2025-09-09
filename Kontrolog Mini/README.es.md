@@ -1,141 +1,122 @@
 ![Logo-Omicron-Vector](https://github.com/Omicron-IoT-Solutions/Kontrolog/assets/141452095/1d867a2d-2f0b-40eb-bbb9-566f306320ba)
 
-# 📆 Kontrolog Mini – Board Support Package (BSP)
+# Kontrolog Mini + OpenPLC
 
-![458474100-dae119af-4867-4a18-a82f-a2c2725e21b4](https://github.com/user-attachments/assets/2f764f75-c2cd-471b-813f-434569d5f4f2)
+<img width="931" height="673" alt="Imagen2(1)" src="https://github.com/user-attachments/assets/a99b089b-df82-4ea8-a3bd-a83dacc7c3c9" />
 
-📄 **Disponible en otros idiomas**: [English version](./README.md)
+📄 **Disponible en otros idiomas**: [English version](./README.md).
 
 ---
 
 ## 📘 Descripción general
 
-Esta rama contiene la documentación y los archivos básicos de encabezado e implementación que componen el **Board Support Package (BSP)** para el **Kontrolog Mini**, así como ejemplos y tutoriales guiados para que aprendas a programarlo en modo **Full-Code**.
+En esta guía aprenderás a integrar tu **Kontrolog Mini** con **OpenPLC**, con instrucciones claras sobre las configuraciones necesarias, los archivos que debes modificar y ejemplos prácticos que te ayudarán a validar su funcionamiento.
+
+> ✅ **Ideal si eres estudiante, profesional, técnico o integrador y quieres aprovechar el Kontrolog Mini dentro del ecosistema OpenPLC.**
 
 ---
 
-## 📁 Estructura del BSP
+## 🛠️ Requisitos previos
 
-[Kontrolog_Mini_BSP](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/Full-Code/Kontrolog%20Mini/Kontrolog_Mini_BSP)
-```text
-├── docs
-│   ├── English
-│   │   ├── Datasheets
-│   │   ├── Manuals
-│   │   └── Schematics
-│   └── Español
-│       ├── Esquemas
-│       ├── Hojas de datos
-│       └── Manuales
-├── examples
-│   ├── ReadModbus_SendLoRa.cpp
-│   └── ReadNTC10k.cpp
-├── include         ← Archivos cabecera (.h)
-├── src             ← Archivos fuente (.cpp)
-├── README.md
-├── library.json
-├── platformio.ini
-├── PartitionsFlashKontrolog16MB.csv
-└── wokwi.toml
-```
+* [Descargar OpenPLC Editor](https://autonomylogic.com/download).
+* [Descargar Visual Studio Code](https://code.visualstudio.com/Download).
+
+Una vez instales estos programas, deberás añadir archivos de configuración al entorno de OpenPLC.
 
 ---
 
-## 🛠️ Guía de uso con PlatformIO
+## 📂 Archivos a agregar
 
-Para usar la biblioteca **Kontrolog Mini**, sigue estos pasos:
-
-### 1. 📁 Crear un nuevo proyecto
-
-Utiliza **PlatformIO** (preferiblemente desde Visual Studio Code) y selecciona la placa:
+Coloca los siguientes archivos en la ruta:
 
 ```
-Espressif ESP32 Dev Module
+C:\\Users\\Personal\\OpenPLC_Editor\\editor\\arduino\\src
 ```
 
-> Framework por defecto: **Arduino**
+* **config.h**
+* **TLA2528.cpp**
+* **tla2528.h**
+* **TLA2528\_C.h**
 
-![448928778-611ca6b2-87bf-48db-94ea-f8dcde6dee67](https://github.com/user-attachments/assets/6605b321-1357-4c13-95b3-c17a8f21dabc)
+Y reemplaza el siguiente archivo en la ruta:
+
+```
+C:\\Users\\Personal\\OpenPLC_Editor\\editor\\arduino\\src\\hal
+```
+
+* **esp32.cpp**
+
+Estos archivos ya están incluidos en este repositorio, por lo que solo tendrás que copiarlos en las carpetas indicadas.
 
 ---
 
-### 2. 📚 Buscar e instalar la biblioteca
+## 🗂️ Distribución de pines
 
-En el registro de bibliotecas de PlatformIO, busca:
+A continuación tienes la asignación de pines del Kontrolog Mini dentro de OpenPLC:
 
-```
-Kontrolog Mini
-```
+| Puerto | Tipo | Señal | Etiqueta | Asignación                |
+| ------ | ---- | ----- | -------- | ------------------------- |
+| 33     | I/O  | A/D   | GPIO33   | QX0.5 / QW0 / IX0.0 / IW0 |
+| 25     | I/O  | A/D   | GPIO25   | QX0.6 / QW1 / IX0.1 / IW1 |
+| 16     | I/O  | A/D   | GPIO16   | QX0.7 / QW2 / IX0.2 / IW2 |
+| 04     | I/O  | A/D   | GPIO04   | QX1.0 / QW3 / IX0.3 / IW3 |
+| 32     | O    | D     | LED\_R   | QX0.0                     |
+| 17     | O    | D     | BUZZER   | QX0.4                     |
+| 15     | O    | D     | LED\_G   | QX0.1                     |
+| 13     | O    | D     | LED\_B   | QX0.2                     |
+| 02     | O    | D     | LED2     | QX0.3                     |
+| IN1    | I    | A/D   | IN1      | IX0.4 / IW4               |
+| IN2    | I    | A/D   | IN2      | IX0.5 / IW5               |
+| REL1   | O    | D     | REL1     | QX1.1                     |
+| REL2   | O    | D     | REL2     | QX1.2                     |
 
-> Palabras clave útiles: `kontrolog`, `mini`, `iot`, `esp32`, `plc`
-
-![448928995-d44f66de-ef81-4cf8-b797-296cbe1f9b61](https://github.com/user-attachments/assets/fc72caca-0d82-477c-948b-3f9099c5a628)
-
----
-
-### 3. ➕ Vincular la biblioteca al proyecto
-
-Una vez agregada, accede al archivo:
-
-```text
-Your project/.pio/libdeps/esp32dev/Kontrolog_Mini/README.md
-```
-
-Allí verás las bibliotecas necesarias para incluir en el archivo `platformio.ini` de tu proyecto.
+> ⚠️ Es recomendable que respetes este mapeo en OpenPLC Editor para garantizar un funcionamiento estable y una correcta integración de OpenPLC con tu Kontrolog Mini.
 
 ---
 
-### 4. ⚙️ Configurar `platformio.ini`
+## 📥 Recursos de aprendizaje
 
-Agrega las siguientes bibliotecas al archivo `platformio.ini` de tu proyecto:
-
-```text
-EEPROM
-ESP32Time
-ArduinoJson
-Wire
-WiFi
-WebServer
-HTTPClient
-WiFiClientSecure
-FS
-```
-
-Guarda los cambios realizados. Esto permitirá una compilación exitosa y el correcto funcionamiento de tu código.
-
-![448929228-b3badfd3-ba55-4d4a-9653-6a666387187b](https://github.com/user-attachments/assets/ffa7b0bb-3171-4dd9-897c-e4578de0b312)
+* 📖 Documentación oficial: [Guía de OpenPLC](https://autonomylogic.com/docs/openplc-overview/).
+* 🎥 Canal de YouTube con guías de uso de OpenPLC: [OpenPLC Videos](https://www.youtube.com/@openplc/videos).
 
 ---
 
-### **5. 🔁 Reemplazar el archivo esp32dev.json**
+## ⚙️ Configuración en OpenPLC Editor
 
-Para asegurar la correcta configuración de la placa, reemplaza el archivo `esp32dev.json` -que se encuentra en la ruta `C:\Users\<TU_USUARIO>\.platformio/platforms/espressif32/boards/`- de tu entorno por el archivo personalizado que se encuentra en la siguiente dirección:
+Para que tu Kontrolog Mini funcione de manera adecuada, necesitas realizar configuraciones directamente en **OpenPLC Editor**.
 
-👉 [esp32dev.json](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/Full-Code/Kontrolog%20Mini/esp32dev.json).
+Un buen punto de partida es inicializar las salidas en estado apagado, usando un programa en lenguaje Ladder. Así, evitarás que los LEDs se enciendan de manera inesperada al iniciar.
 
-Este archivo contiene ajustes avanzados que permiten una compilación más optimizada y compatible con las funciones del Kontrolog Mini.
+<img width="809" height="399" alt="05c6c738-2a89-4a98-b904-273bf0f5cc68" src="https://github.com/user-attachments/assets/bc6cc2f1-2166-4689-bc23-f97d0ca83bc5" />
+
+En la sección **I/O Config** del OpenPLC Editor:
+
+* Selecciona como Board Type la opción `ESP32 WROOM [3.3.0]`.
+* Ingresa como **Digital Outputs** los pines en este orden: `32, 15, 13, 02`.
+* Deja en blanco los campos de **Digital Inputs**, **Analog Inputs** y **Analog Outputs**, a menos que vayas a usarlos.
+
+<img width="985" height="623" alt="61e3027c-b4ed-4c4b-974c-a6949b437e4e" src="https://github.com/user-attachments/assets/f0951973-eee9-489e-aed9-008c91c6c0cc" />
+
+> ⚠️ Esta configuración es clave para asegurar que la integración de OpenPLC con tu Kontrolog Mini funcione de manera correcta y estable desde el inicio.
 
 ---
 
-## 💡 ¿Qué puedes hacer?
+## 🎬 Ejemplos incluidos
 
-Este entorno te permite:
+Dentro de este repositorio encontrarás ejemplos prácticos que te servirán como primera validación de la integración:
 
-* Usar entradas y salidas del Kontrolog Mini.
-* Leer sensores.
-* Activar relés.
-* Configurar comunicación (LoRa, WiFi, etc.).
-* Controlar LEDs y buzzer.
+* ✅ **Parpadeo del LED RGB**, donde comprobarás que los mapeos de pines funcionan correctamente.
+* ✅ **Lectura de la entrada analógica IN1**, ideal para verificar que las señales de entrada se reconocen sin errores.
 
-Lo importante de esta herramienta es que puedes capturar todas tus ideas y todo lo que deseas ejecutar con tu Kontrolog Mini. Desde tu archivo de encabezado principal, puedes llamar a las entradas y salidas disponibles, indicar las funciones que deseas que realicen, como lecturas de sensores, activación de salidas de relé, definir los tipos de comunicación que deseas vincular y asignar funciones para los LEDs y el buzzer. Solo necesitas explorar cada uno de los archivos de encabezado y los códigos fuente para saber cómo llamar a las funciones respectivas y definir los estados deseados.
+Estos ejemplos son la forma más sencilla y confiable de confirmar que tu entorno OpenPLC y el Kontrolog Mini están trabajando en conjunto de manera adecuada.
 
 ---
 
 ## 📞 ¿Necesitas ayuda?
 
-* 📧 Correo electrónico: [solutions@omicroniot.com](mailto:solutions@omicroniot.com)
-* 📞 WhatsApp / Teléfono: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281)
+* 📧 Correo electrónico: [solutions@omicroniot.com](mailto:solutions@omicroniot.com).
+* 📱 WhatsApp / Teléfono: [+57 317 4365062](https://api.whatsapp.com/send?phone=573176478281).
 
 ---
 
-**Omicron IoT Solutions** – Tecnología para desarrolladores que transforman industrias.
+**Omicron IoT Solutions**

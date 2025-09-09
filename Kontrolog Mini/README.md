@@ -30,21 +30,21 @@ Once you install these programs, you will need to add configuration files to the
 Place the following files in the path:
 
 ```
-C:\Users\Personal\OpenPLC_Editor\editor\arduino\src
+C:\...\OpenPLC_Editor\editor\arduino\src
 ```
 
-* **config.h**
-* **TLA2528.cpp**
-* **tla2528.h**
-* **TLA2528\_C.h**
+* **[config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/config.h)**
+* **[TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/TLA2528.cpp)**
+* **[tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/tla2528.h)**
+* **[TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/TLA2528_C.h)**
 
 And replace the following file in the path:
 
 ```
-C:\Users\Personal\OpenPLC_Editor\editor\arduino\src\hal
+C:\...\OpenPLC_Editor\editor\arduino\src\hal
 ```
 
-* **esp32.cpp**
+* **[esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/esp32.cpp)**
 
 These files are already included in this repository, so you only need to copy them into the specified folders.
 

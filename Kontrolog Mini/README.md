@@ -19,7 +19,6 @@ In this guide, you will learn how to integrate your **Kontrolog Mini** with **Op
 ## 🛠️ Prerequisites
 
 * [Download OpenPLC Editor](https://www.openplcproject.com/).
-* [Download Visual Studio Code](https://code.visualstudio.com/).
 
 Once you install these programs, you will need to add configuration files to the OpenPLC environment.
 

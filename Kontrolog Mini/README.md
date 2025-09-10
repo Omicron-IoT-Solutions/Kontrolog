@@ -4,7 +4,7 @@
 
 <img width="931" height="673" alt="Imagen2(1)" src="https://github.com/user-attachments/assets/71126117-d31a-4220-b51f-7f0f662a0b81" />
 
-📄 **Also available in other languages**: [Versión en Español](./README.es.md).
+📄 **Available in other languages**: [Versión en Español](./README.es.md).
 
 ---
 
@@ -12,7 +12,7 @@
 
 In this guide, you will learn how to integrate your **Kontrolog Mini** with **OpenPLC**, with clear instructions on the required configurations, the files you need to modify, and practical examples to validate its operation.
 
-> ✅ **Ideal if you are a student, professional, technician, or integrator and want to take advantage of the Kontrolog Mini within the OpenPLC ecosystem.**
+> ✅ **Ideal if you are a student, professional, technician, or integrator and want to make the most of the Kontrolog Mini within the OpenPLC ecosystem.**
 
 ---
 
@@ -29,21 +29,21 @@ Once you install these programs, you will need to add configuration files to the
 Place the following files in the path:
 
 ```
-C:\...\OpenPLC_Editor\editor\arduino\src
+C:\<Users\Personal>\OpenPLC_Editor\editor\arduino\src
 ```
 
-* **[config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/config.h)**
-* **[TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/TLA2528.cpp)**
-* **[tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/tla2528.h)**
-* **[TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/TLA2528_C.h)**
+* [config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/config.h)
+* [TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/TLA2528.cpp)
+* [tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/tla2528.h)
+* [TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/TLA2528_C.h)
 
 And replace the following file in the path:
 
 ```
-C:\...\OpenPLC_Editor\editor\arduino\src\hal
+C:\<Users\Personal>\OpenPLC_Editor\editor\arduino\src\hal
 ```
 
-* **[esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/esp32.cpp)**
+* [esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/esp32.cpp)
 
 These files are already included in this repository, so you only need to copy them into the specified folders.
 
@@ -69,7 +69,7 @@ Below is the pin assignment of the Kontrolog Mini within OpenPLC:
 | REL1 | O    | D      | REL1   | QX1.1                     |
 | REL2 | O    | D      | REL2   | QX1.2                     |
 
-> ⚠️ It is strongly recommended to follow this mapping in OpenPLC Editor to guarantee stable operation and proper integration of OpenPLC with your Kontrolog Mini.
+> ⚠️ It is recommended that you respect this mapping in OpenPLC Editor to ensure stable operation and proper integration of OpenPLC with your Kontrolog Mini.
 
 ---
 
@@ -82,32 +82,37 @@ Below is the pin assignment of the Kontrolog Mini within OpenPLC:
 
 ## ⚙️ Configuration in OpenPLC Editor
 
-To make your Kontrolog Mini work properly, you need to perform specific configurations directly in **OpenPLC Editor**.
+To make your Kontrolog Mini work correctly, you must perform configurations directly in **OpenPLC Editor**.
 
-A good starting point is to initialize the outputs in the OFF state, using a Ladder program. This way, you will avoid LEDs turning on unexpectedly at startup.
+Open OpenPLC Editor and create a new project inside an empty folder. Keep in mind that each project in OpenPLC Editor is saved as a folder with all the necessary files, so you cannot use a folder that already has content.
 
-<img width="809" height="399" alt="05c6c738-2a89-4a98-b904-273bf0f5cc68" src="https://github.com/user-attachments/assets/6d591739-05db-44cc-ba22-6833a1e63013" />
+When you define the path of your project, an initial settings window will appear. There you must assign the name of the POU (Program Organization Unit), keep the POU type as `program`, and choose the `LD` (Ladder) language.
+
+A good starting point is to initialize the outputs in the OFF state, to avoid LEDs turning on unexpectedly at startup.
+
+Once you have your program, you can simulate it and transfer it to the Kontrolog Mini using the editor options.
 
 In the **I/O Config** section of OpenPLC Editor:
 
 * Select **Board Type** as `ESP32 WROOM [3.3.0]`.
+* Define the serial communication port you are using to connect your Kontrolog Mini to the computer.
 * Enter as **Digital Outputs** the pins in this order: `32, 15, 13, 02`.
-* Leave the **Digital Inputs**, **Analog Inputs**, and **Analog Outputs** fields empty unless you plan to use them.
+* Leave the fields for **Digital Inputs**, **Analog Inputs**, and **Analog Outputs** empty unless you are going to use them.
 
-<img width="985" height="623" alt="61e3027c-b4ed-4c4b-974c-a6949b437e4e" src="https://github.com/user-attachments/assets/99efd935-7780-41bc-b0a9-431c6b6f74b7" />
+In the **Transfer** section, select the option `Transfer to PLC` and the program will be installed on your Kontrolog Mini.
 
-> ⚠️ This configuration is essential to ensure that the integration of OpenPLC with your Kontrolog Mini works correctly and reliably from the start.
+> ⚠️ This configuration is essential to ensure that the integration of OpenPLC with your Kontrolog Mini works correctly and reliably from the beginning.
 
 ---
 
 ## 🎬 Included examples
 
-In this repository, you will find practical examples that will help you validate the integration:
+In this repository, you will find practical examples that will serve as the first validation of the integration:
 
-* ✅ **RGB LED blink**, to confirm that the pin mappings are working correctly.
-* ✅ **Reading the analog input IN1**, ideal to verify that input signals are being recognized without errors.
+* ✅ **RGB LED blink**, where you will confirm that the pin mappings are working correctly.
+* ✅ **Reading the analog input IN1**, ideal for verifying that the input signals are recognized without errors.
 
-These examples are the easiest and most reliable way to confirm that your OpenPLC environment and the Kontrolog Mini are working together properly.
+These examples are the simplest and most reliable way to confirm that your OpenPLC environment and the Kontrolog Mini are working together properly.
 
 ---
 

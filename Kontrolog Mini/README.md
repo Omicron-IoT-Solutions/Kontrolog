@@ -88,9 +88,13 @@ Open OpenPLC Editor and create a new project inside an empty folder. Keep in min
 
 When you define the path of your project, an initial settings window will appear. There you must assign the name of the POU (Program Organization Unit), keep the POU type as `program`, and choose the `LD` (Ladder) language.
 
+<img width="247" height="204" alt="Imagen1(2)" src="https://github.com/user-attachments/assets/40c1d751-604f-4b63-a031-f792e00cbdf5" />
+
 A good starting point is to initialize the outputs in the OFF state, to avoid LEDs turning on unexpectedly at startup.
 
 Once you have your program, you can simulate it and transfer it to the Kontrolog Mini using the editor options.
+
+<img width="2216" height="1688" alt="Imagen1(3)" src="https://github.com/user-attachments/assets/d31bfb02-be7d-40d3-9fcc-a31c2181d48f" />
 
 In the **I/O Config** section of OpenPLC Editor:
 
@@ -99,7 +103,11 @@ In the **I/O Config** section of OpenPLC Editor:
 * Enter as **Digital Outputs** the pins in this order: `32, 15, 13, 02`.
 * Leave the fields for **Digital Inputs**, **Analog Inputs**, and **Analog Outputs** empty unless you are going to use them.
 
+<img width="985" height="623" alt="Imagen1(4)" src="https://github.com/user-attachments/assets/753fdea9-5e9a-4be4-8b1d-598da65d29c7" />
+
 In the **Transfer** section, select the option `Transfer to PLC` and the program will be installed on your Kontrolog Mini.
+
+<img width="985" height="623" alt="Imagen1(5)" src="https://github.com/user-attachments/assets/0b7db1dd-aa01-48c5-bca5-31cc4de8000c" />
 
 > ⚠️ This configuration is essential to ensure that the integration of OpenPLC with your Kontrolog Mini works correctly and reliably from the beginning.
 

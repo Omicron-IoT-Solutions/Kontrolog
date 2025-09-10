@@ -19,7 +19,6 @@ En esta guía aprenderás a integrar tu **Kontrolog Mini** con **OpenPLC**, con 
 ## 🛠️ Requisitos previos
 
 * [Descargar OpenPLC Editor](https://autonomylogic.com/download).
-* [Descargar Visual Studio Code](https://code.visualstudio.com/Download).
 
 Una vez instales estos programas, deberás añadir archivos de configuración al entorno de OpenPLC.
 

@@ -18,7 +18,7 @@ En esta guía aprenderás a integrar tu **Kontrolog Mini** con **OpenPLC**, con 
 
 ## 🛠️ Requisitos previos
 
-* [Descargar OpenPLC Editor](https://autonomylogic.com/download).
+* [Descargar OpenPLC Editor](https://www.openplcproject.com/).
 
 Una vez instales estos programas, deberás añadir archivos de configuración al entorno de OpenPLC.
 
@@ -29,21 +29,21 @@ Una vez instales estos programas, deberás añadir archivos de configuración al
 Coloca los siguientes archivos en la ruta:
 
 ```
-C:\...\OpenPLC_Editor\editor\arduino\src
+C:\<Users\Personal>\OpenPLC_Editor\editor\arduino\src
 ```
 
-* **[config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/config.h)**
-* **[TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/TLA2528.cpp)**
-* **[tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/tla2528.h)**
-* **[TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/TLA2528_C.h)**
+* [config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/config.h)
+* [TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/TLA2528.cpp)
+* [tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/tla2528.h)
+* [TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/TLA2528_C.h)
 
 Y reemplaza el siguiente archivo en la ruta:
 
 ```
-C:\...\OpenPLC_Editor\editor\arduino\src\hal
+C:\<Users\Personal>\OpenPLC_Editor\editor\arduino\src\hal
 ```
 
-* **[esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/esp32.cpp)**
+* [esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20%28Archivos%29/esp32.cpp)
 
 Estos archivos ya están incluidos en este repositorio, por lo que solo tendrás que copiarlos en las carpetas indicadas.
 
@@ -82,21 +82,34 @@ A continuación tienes la asignación de pines del Kontrolog Mini dentro de Open
 
 ## ⚙️ Configuración en OpenPLC Editor
 
-Para que tu Kontrolog Mini funcione de manera adecuada, necesitas realizar configuraciones directamente en **OpenPLC Editor**.
+Para que tu Kontrolog Mini funcione correctamente, debes realizar configuraciones directamente en **OpenPLC Editor**.
 
-Un buen punto de partida es inicializar las salidas en estado apagado, usando un programa en lenguaje Ladder. Así, evitarás que los LEDs se enciendan de manera inesperada al iniciar.
+Abre OpenPLC Editor y crea un proyecto nuevo dentro de una carpeta vacía. Ten en cuenta que cada proyecto en OpenPLC Editor se guarda como una carpeta con todos los archivos necesarios, por lo que no podrás usar una carpeta que ya tenga contenido.
 
-<img width="809" height="399" alt="05c6c738-2a89-4a98-b904-273bf0f5cc68" src="https://github.com/user-attachments/assets/bc6cc2f1-2166-4689-bc23-f97d0ca83bc5" />
+Cuando definas la ruta de tu proyecto, aparecerá un cuadro de ajustes iniciales. Allí debes asignar el nombre del POU (Unidad de Organización de Programas), mantener el tipo de POU como `programa`, y elegir el lenguaje `LD` (Ladder).
 
-En la sección **I/O Config** del OpenPLC Editor:
+<img width="247" height="204" alt="Imagen1(2)" src="https://github.com/user-attachments/assets/8bc6d576-01a3-48e7-8225-a8989f7058fb" />
 
-* Selecciona como Board Type la opción `ESP32 WROOM [3.3.0]`.
+Un buen punto de partida es inicializar las salidas en estado apagado, para evitar que los LEDs se enciendan de manera inesperada al arrancar.
+
+Una vez que tengas tu programa, podrás simularlo y transferirlo al Kontrolog Mini usando las opciones del editor.
+
+<img width="2216" height="1688" alt="Imagen1(3)" src="https://github.com/user-attachments/assets/b518ad3b-ae6c-440b-a2b4-f03e23558ab6" />
+
+En la sección **I/O Config** de OpenPLC Editor:
+
+* Selecciona como **Board Type** la opción `ESP32 WROOM [3.3.0]`.
+* Define el puerto de comunicación serial con el que conectas tu Kontrolog Mini al ordenador.
 * Ingresa como **Digital Outputs** los pines en este orden: `32, 15, 13, 02`.
-* Deja en blanco los campos de **Digital Inputs**, **Analog Inputs** y **Analog Outputs**, a menos que vayas a usarlos.
+* Deja vacíos los campos de **Digital Inputs**, **Analog Inputs** y **Analog Outputs** a menos que vayas a utilizarlos.
 
-<img width="985" height="623" alt="61e3027c-b4ed-4c4b-974c-a6949b437e4e" src="https://github.com/user-attachments/assets/f0951973-eee9-489e-aed9-008c91c6c0cc" />
+<img width="985" height="623" alt="Imagen1(4)" src="https://github.com/user-attachments/assets/b025ca25-2e39-4a76-9f81-14c6b8d3b91a" />
 
-> ⚠️ Esta configuración es clave para asegurar que la integración de OpenPLC con tu Kontrolog Mini funcione de manera correcta y estable desde el inicio.
+En la sección **Transferir**, selecciona la opción `Transfer to PLC` y el programa se instalará en tu Kontrolog Mini.
+
+<img width="985" height="623" alt="Imagen1(5)" src="https://github.com/user-attachments/assets/f6a2954e-7edb-44c8-adda-2951360e4b0a" />
+
+> ⚠️ Esta configuración es esencial para asegurar que la integración de OpenPLC con tu Kontrolog Mini funcione de manera correcta y estable desde el inicio.
 
 ---
 

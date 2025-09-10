@@ -33,10 +33,10 @@ Coloca los siguientes archivos en la ruta:
 C:\...\OpenPLC_Editor\editor\arduino\src
 ```
 
-* **[config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/config.h)**
-* **[TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/TLA2528.cpp)**
-* **[tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/tla2528.h)**
-* **[TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/TLA2528_C.h)**
+* **[config.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/config.h)**
+* **[TLA2528.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/TLA2528.cpp)**
+* **[tla2528.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/tla2528.h)**
+* **[TLA2528\_C.h](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/TLA2528_C.h)**
 
 Y reemplaza el siguiente archivo en la ruta:
 
@@ -44,7 +44,7 @@ Y reemplaza el siguiente archivo en la ruta:
 C:\...\OpenPLC_Editor\editor\arduino\src\hal
 ```
 
-* **[esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/esp32.cpp)**
+* **[esp32.cpp](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/OpenPLC/Kontrolog%20Mini/Files%20(Archivos)/esp32.cpp)**
 
 Estos archivos ya están incluidos en este repositorio, por lo que solo tendrás que copiarlos en las carpetas indicadas.
 

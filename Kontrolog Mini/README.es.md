@@ -2,7 +2,7 @@
 
 # Kontrolog Mini + OpenPLC
 
-<img width="931" height="673" alt="Imagen2(1)" src="https://github.com/user-attachments/assets/a99b089b-df82-4ea8-a3bd-a83dacc7c3c9" />
+<img width="939" height="673" alt="Imagen2(1)" src="https://github.com/user-attachments/assets/fa4ba6db-df3b-42ee-aba6-5f110a682ae6" />
 
 📄 **Disponible en otros idiomas**: [English version](./README.md).
 

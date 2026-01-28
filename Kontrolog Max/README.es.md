@@ -41,9 +41,14 @@ El [firmware del Kontrolog Max](https://github.com/Omicron-IoT-Solutions/Kontrol
 
 ![Imagen3](https://github.com/user-attachments/assets/8a66cb22-fcc2-408f-a22f-b2307f626297)
 
-5. Carga el archivo `.bin` y configúralo con:
+5. Carga los archivos `.bin` que encontrarás en la carpeta **[Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware)** y configúralos de la siguiente manera:
 
-   * Dirección de memoria: `0x10000`.
+   * **[Kontrolog_Max_bootloader.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_bootloader.bin)**:
+       * Dirección de memoria: `0x1000`.
+   * **[Kontrolog_Max_firmware.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_firmware.bin)**:
+       * Dirección de memoria: `0x10000`.
+   * **[Kontrolog_Max_partitions.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_partitions.bin)**:
+       * Dirección de memoria: `0x8000`.
    * SPI Speed: `40MHz`.
    * SPI Mode: `DIO`.
    * Activa “DoNotChgBin”.

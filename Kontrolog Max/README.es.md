@@ -32,7 +32,7 @@ El [firmware del Kontrolog Max](https://github.com/Omicron-IoT-Solutions/Kontrol
 
 ![Imagen2](https://github.com/user-attachments/assets/e8c1f4cb-4268-45e2-8d13-c6c952a47ac9)
 
-2. Descarga el archivo `.bin` del firmware desde el repositorio.
+2. Descarga los archivos `.bin` que encontrarás en la carpeta **[Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware)** desde el repositorio.
 3. Conecta el Kontrolog Max a tu PC mediante el cable USB-C.
 4. Abre Flash Download Tool y selecciona:
 
@@ -41,7 +41,7 @@ El [firmware del Kontrolog Max](https://github.com/Omicron-IoT-Solutions/Kontrol
 
 ![Imagen3](https://github.com/user-attachments/assets/8a66cb22-fcc2-408f-a22f-b2307f626297)
 
-5. Carga los archivos `.bin` que encontrarás en la carpeta **[Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware)** y configúralos de la siguiente manera:
+5. Carga los archivos `.bin y realiza las siguientes configuraciones:
 
    * **[Kontrolog_Max_bootloader.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_bootloader.bin)**:
        * Dirección de memoria: `0x1000`.

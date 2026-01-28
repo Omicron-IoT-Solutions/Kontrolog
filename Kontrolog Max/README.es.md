@@ -50,7 +50,7 @@ El [firmware del Kontrolog Max](https://github.com/Omicron-IoT-Solutions/Kontrol
 6. Selecciona el puerto COM correcto y velocidad: `460800 Baud`.
 7. Haz clic en Start para programar tu dispositivo.
 
-![Imagen4](https://github.com/user-attachments/assets/98c00ce6-3f8f-4906-858b-13938cf082f4)
+<img width="705" height="671" alt="Sin título" src="https://github.com/user-attachments/assets/6180d919-c221-4caf-a809-0f18e79af940" />
 
 ---
 

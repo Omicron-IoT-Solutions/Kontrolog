@@ -50,7 +50,7 @@ The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/
 6. Select the correct COM port and baud rate: `460800 Baud`.
 7. Click Start to flash the firmware onto your device.
 
-![Imagen4](https://github.com/user-attachments/assets/0a965cd7-595f-4141-aa59-d5a2ba10c06d)
+<img width="705" height="671" alt="Sin título" src="https://github.com/user-attachments/assets/2b85b9c8-7ec0-46d7-990d-6eafb4c4a27a" />
 
 ---
 

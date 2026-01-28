@@ -32,7 +32,7 @@ The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/
 
 ![Imagen2](https://github.com/user-attachments/assets/d830d2c1-2b5f-41d7-9aa4-316e00b37646)
 
-2. Download the `.bin` firmware file from the repository.
+2. Download the .bin files located in the **[Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware)** folder from the repository.
 3. Connect your Kontrolog Max to your PC via USB-C cable.
 4. Open Flash Download Tool and select:
 
@@ -41,9 +41,14 @@ The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/
 
 ![Imagen3](https://github.com/user-attachments/assets/dc8715cd-fe37-4aad-93b5-ffe1435367ec)
 
-5. Load the `.bin` file and configure:
+5.Load the .bin files and configure them as follows:
 
-   * Memory address: `0x10000`.
+  * **[Kontrolog_Max_bootloader.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_bootloader.bin)**:
+      * Memory address: `0x1000`.
+  * **[Kontrolog_Max_firmware.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_firmware.bin)**:
+      * Memory address: `0x10000`.
+  * **[Kontrolog_Max_partitions.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_partitions.bin)**:
+      * Memory address: `0x8000`.
    * SPI Speed: `40MHz`.
    * SPI Mode: `DIO`.
    * Enable “DoNotChgBin”.

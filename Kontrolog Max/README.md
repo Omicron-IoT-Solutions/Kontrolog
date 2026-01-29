@@ -34,14 +34,14 @@ The [Kontrolog Max firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/
 
 2. Download the .bin files located in the **[Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware)** folder from the repository.
 3. Connect your Kontrolog Max to your PC via USB-C cable.
-4. Open Flash Download Tool and select:
+4. Run Flash Download Tool as administrator and select:
 
    * **Chip**: ESP32.
    * **Mode**: Development.
 
 ![Imagen3](https://github.com/user-attachments/assets/dc8715cd-fe37-4aad-93b5-ffe1435367ec)
 
-5.Load the .bin files and configure them as follows:
+5. Load the .bin files and configure them as follows:
 
   * **[Kontrolog_Max_bootloader.bin](https://github.com/Omicron-IoT-Solutions/Kontrolog/blob/No-Code/Kontrolog%20Max/Firmware/Kontrolog_Max_bootloader.bin)**:
       * Memory address: `0x1000`.

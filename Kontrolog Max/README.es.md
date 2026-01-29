@@ -34,7 +34,7 @@ El [firmware del Kontrolog Max](https://github.com/Omicron-IoT-Solutions/Kontrol
 
 2. Descarga los archivos `.bin` que encontrarás en la carpeta **[Firmware](https://github.com/Omicron-IoT-Solutions/Kontrolog/tree/No-Code/Kontrolog%20Max/Firmware)** desde el repositorio.
 3. Conecta el Kontrolog Max a tu PC mediante el cable USB-C.
-4. Abre Flash Download Tool y selecciona:
+4. Ejecuta la aplicación Flash Download Tool como administrador y selecciona:
 
    * **Chip**: ESP32.
    * **Mode**: Development.
